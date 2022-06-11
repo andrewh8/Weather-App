@@ -9,17 +9,24 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    background-color: rgb(247, 244, 244);
+}
+
+#title {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #display {
-    height: 100px;
-    width: 200px;
-    background-color: rgb(177, 201, 201);
+    height: 150px;
+    width: 400px;
+    background-color: rgb(170, 189, 250);
     border-style: inset;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    font-size: 20px;
+    font-size: 40px;
+    border-radius: 20px;
 }
